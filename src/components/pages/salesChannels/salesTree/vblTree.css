@@ -1,0 +1,205 @@
+.vbl-tree .ztree {
+  padding: 0;
+}
+.vbl-tree .ztree * {
+  font-family: inherit;
+  
+  box-sizing: initial;
+}
+.vbl-tree .ztree :after,
+.vbl-tree .ztree :before {
+  box-sizing: initial;
+}
+.vbl-tree .ztree li li {
+  /*margin-top: 4px;*/
+}
+.vbl-tree .ztree .node_name {
+  vertical-align: middle;
+  max-width: 220px;
+  display: inline-block;
+  text-overflow: ellipsis;
+  overflow: hidden;
+}
+.vbl-tree .ztree li span.button.bottom_docu,
+.vbl-tree .ztree li ul.line,
+.vbl-tree .ztree li span.button.center_docu {
+  background: none;
+}
+
+
+.vbl-tree .ztree li a {
+  padding: 6px;
+  height: auto;
+  vertical-align: middle;
+  text-decoration: none;
+}
+.vbl-tree .ztree li a input.rename {
+  width: 200px;
+  height: 24px;
+  line-height: 24px;
+  color: #000;
+  border: 1px solid #e1e1e1;
+  border-radius: 4px;
+  outline: none;
+  text-indent: 5px;
+}
+.vbl-tree .ztree li a button.saveInput {
+  border: none;
+  cursor: pointer;
+  color: #1D86F4;
+  font-size: 12px;
+  line-height: 24px;
+  background: none;
+  padding: 0 8px;
+  float: right;
+}
+.vbl-tree .ztree li a button.delInput {
+  border: none;
+  cursor: pointer;
+  color: #1D86F4;
+  font-size: 12px;
+  line-height: 24px;
+  background: none;
+  padding: 0 8px;
+  float: right;
+}
+.vbl-tree .ztree li a button.editSave {
+  border: none;
+  cursor: pointer;
+  color: #1D86F4;
+  font-size: 12px;
+  line-height: 24px;
+  background: none;
+  padding: 0 8px;
+  float: right;
+}
+.vbl-tree .ztree li a button.editCancel {
+  border: none;
+  cursor: pointer;
+  color: #1D86F4;
+  font-size: 12px;
+  line-height: 24px;
+  background: none;
+  padding: 0 8px;
+  float: right;
+}
+
+
+
+.vbl-tree .ztree li a.curSelectedNode {
+  background: #ebf7ff;
+  border: none;
+  opacity: 1;
+}
+.vbl-tree.has-check .ztree li a:hover {
+  text-decoration: none;
+  cursor: default;
+}
+.vbl-tree.has-check .ztree li a.curSelectedNode {
+  background: #fff;
+}
+.vbl-tree .ztree li span.button.chk.checkbox_true_part_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_true_part,
+.vbl-tree .ztree li span.button.chk.checkbox_true_full_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_true_full,
+.vbl-tree .ztree li span.button.chk.checkbox_false_part_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_false_part,
+.vbl-tree .ztree li span.button.chk.checkbox_false_full_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_false_full {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  left: 0;
+  border: 1px solid #dddee1;
+  border-radius: 2px;
+  background-color: #fff;
+  background-image: none;
+  transition: border-color 0.2s ease-in-out, background-color 0.2s ease-in-out;
+  cursor: pointer;
+  vertical-align: middle;
+}
+.vbl-tree .ztree li span.button.chk.checkbox_true_part_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_true_part,
+.vbl-tree .ztree li span.button.chk.checkbox_true_full_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_true_full {
+  background-color: #1d86f4;
+  border-color: #1d86f4;
+}
+.vbl-tree .ztree li span.button.chk.checkbox_true_part_focus:after,
+.vbl-tree .ztree li span.button.chk.checkbox_true_part:after,
+.vbl-tree .ztree li span.button.chk.checkbox_true_full_focus:after,
+.vbl-tree .ztree li span.button.chk.checkbox_true_full:after {
+  content: "";
+  display: table;
+  width: 4px;
+  height: 8px;
+  position: absolute;
+  top: 0;
+  left: 3px;
+  border: 2px solid #fff;
+  border-top: 0;
+  border-left: 0;
+  transform: rotate(45deg) scale(0.8);
+  transition: all 0.2s ease-in-out;
+}
+.vbl-tree .ztree li span.button.chk.checkbox_true_part_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_true_part,
+.vbl-tree .ztree li span.button.chk.checkbox_false_part_focus,
+.vbl-tree .ztree li span.button.chk.checkbox_false_part {
+  opacity: .6;
+}
+.vbl-tree .ztree li span.button.chk.radio_true_part_focus,
+.vbl-tree .ztree li span.button.chk.radio_true_part,
+.vbl-tree .ztree li span.button.chk.radio_true_full_focus,
+.vbl-tree .ztree li span.button.chk.radio_true_full,
+.vbl-tree .ztree li span.button.chk.radio_false_part_focus,
+.vbl-tree .ztree li span.button.chk.radio_false_part,
+.vbl-tree .ztree li span.button.chk.radio_false_full_focus,
+.vbl-tree .ztree li span.button.chk.radio_false_full {
+  display: inline-block;
+  width: 12px;
+  height: 12px;
+  position: relative;
+  background-color: #fff;
+  border: 1px solid #dddee1;
+  border-radius: 50%;
+  transition: all 0.2s ease-in-out;
+  background-image: none;
+  cursor: pointer;
+}
+.vbl-tree .ztree li span.button.chk.radio_true_part_focus,
+.vbl-tree .ztree li span.button.chk.radio_true_part,
+.vbl-tree .ztree li span.button.chk.radio_true_full_focus,
+.vbl-tree .ztree li span.button.chk.radio_true_full {
+  color: #1d86f4;
+  border-color: #1d86f4;
+}
+.vbl-tree .ztree li span.button.chk.radio_true_part_focus:after,
+.vbl-tree .ztree li span.button.chk.radio_true_part:after,
+.vbl-tree .ztree li span.button.chk.radio_true_full_focus:after,
+.vbl-tree .ztree li span.button.chk.radio_true_full:after {
+  position: absolute;
+  width: 8px;
+  height: 8px;
+  left: 2px;
+  top: 2px;
+  border-radius: 6px;
+  display: table;
+  border-top: 0;
+  border-left: 0;
+  content: " ";
+  background-color: #2d8cf0;
+  opacity: 1;
+  transform: scale(1);
+  transition: all 0.2s ease-in-out;
+}
+.vbl-tree .ztree li span.button.chk.radio_true_part_focus,
+.vbl-tree .ztree li span.button.chk.radio_true_part,
+.vbl-tree .ztree li span.button.chk.radio_false_part_focus,
+.vbl-tree .ztree li span.button.chk.radio_false_part {
+  opacity: .6;
+}
+.vbl-tree .ztree li span.button.chk + a {
+  pointer-events: none;
+}

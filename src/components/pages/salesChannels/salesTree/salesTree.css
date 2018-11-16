@@ -1,0 +1,89 @@
+
+
+ .ivu-spin-fix .ivu-spin-main{
+    position: absolute;
+    top: 40%;
+  }
+ .ivu-tag .ivu-icon-ios-close-empty{
+    margin-left: 0px!important;
+  }
+
+ 
+#bussinessTree.ztree li span.button.iconPerson_ico_open{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreePerson.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+    }
+#bussinessTree.ztree li span.button.iconPerson_ico_close{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreePerson.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+ }
+ #bussinessTree.ztree li span.button.iconPerson_ico_docu{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreePerson.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+ }
+
+ #bussinessTree.ztree li span.button.iconChannel_ico_open{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreeChannel.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+    }
+#bussinessTree.ztree li span.button.iconChannel_ico_close{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreeChannel.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+ }
+ #bussinessTree.ztree li span.button.iconChannel_ico_docu{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreeChannel.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+ }
+
+ #bussinessTree.ztree li span.button.iconCompany_ico_open{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreeCompany.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+    }
+#bussinessTree.ztree li span.button.iconCompany_ico_close{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreeCompany.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+ }
+ #bussinessTree.ztree li span.button.iconCompany_ico_docu{
+    margin-right:2px;
+    background: url(../../../../assets/images/ztreeCompany.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+ }
+
+
+/*2018-11-6  修改*/
+ #bussinessTree.ztree li span.button.iconHasChildren_ico_open{
+    width:18px;
+    height:18px;
+    margin-right:2px;
+    background: url(../../../../assets/images/Shape@2x.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+    background-size: contain;
+ }
+  #bussinessTree.ztree li span.button.iconHasChildren_ico_close{
+    margin-right:2px;
+    width:18px;
+    height:18px;
+    background: url(../../../../assets/images/Shape@2x.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+    background-size: contain;
+ }
+ #bussinessTree.ztree li span.button.iconHasChildren_ico_docu{
+    margin-right:2px;
+    width:18px;
+    height:18px;
+    background: url(../../../../assets/images/Shape@2x.png) no-repeat scroll 0 0 transparent;
+    vertical-align:top;
+    background-size: contain;
+ }
+ #bussinessTree.ztree li span.button.ico_docu{
+    display: none;
+ }
+

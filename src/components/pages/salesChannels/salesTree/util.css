@@ -1,0 +1,158 @@
+
+.userNavigation {font-size: 14px;color: #666666;padding: 20px 20px 20px 24px;}
+.black {color: #000;}
+.wite {color: #fff;}
+.co666{ color: #666666;}
+.coccc{color: #cccccc;}
+.text10{text-indent: 10px;}
+.text30{text-indent: 30px;}
+.light{color: #1D86F4;cursor: pointer;}
+a.light:hover {text-decoration:underline;}
+.searchNav{ background-color: #ffffff;margin-right:24px;margin-left:24px;-webkit-box-shadow: #EEEEEE 0px 0px 8px 4px;-moz-box-shadow: #EEEEEE 0px 0px 8px 4px;box-shadow: #EEEEEE 0px 0px 8px 4px;}
+.content{height: auto;margin-right:24px;margin-left:24px;background-color: #ffffff;-webkit-box-shadow: #EEEEEE 0px 0px 8px 4px;-moz-box-shadow: #EEEEEE 0px 0px 8px 4px;box-shadow: #EEEEEE 0px 0px 8px 4px;}
+.blod {font-weight: bold;}
+.marginLeft30Pre{margin-left: 30%}
+.paddingLR20 {padding: 0 20px 0 20px}
+.paddingLR30 {padding: 0 30px 0 30px}
+.paddingTB20 {padding: 20px 0px 20px 0px}
+.padT20L30 {padding: 20px 30px 20px 30px}
+.pandding20 {padding: 20px}
+.pandding10 {padding: 10px}
+.pandding5 {padding: 5px}
+.paddingTop20 {padding-top: 20px}
+.paddingBot20 {padding-bottom: 20px}
+.paddingBot40 {padding-bottom: 40px}
+.magrinLeft5 {margin-left:5px}
+.magrinLeft-8{margin-left:-8px}
+.magrinLeft10 {margin-left: 10px}
+.magrinLeft20 {margin-left: 20px}
+.magrinLeft30 {margin-left: 30px}
+.magrinLeft50 {margin-left: 50px}
+.magrinLeft100 {margin-left: 100px}
+.marginRight30 {margin-right: 30px}
+.marginTop3{margin-top: 3px}
+.marginTop5 {margin-top: 5px}
+.marginTop7 {margin-top: 7px}
+.marginTop8 {margin-top: 8px}
+.marginTop10 {margin-top: 10px}
+.marginTop14 {margin-top: 14px}
+.marginTop20 {margin-top: 20px}
+.marginTop40 {margin-top: 40px}
+.marginTop50 {margin-top: 50px}
+.marginTop100 {margin-top:100px}
+.marginBottom6 {margin-bottom: 6px}
+.marginBottom10 {margin-bottom: 10px}
+.marginBottom14 {margin-bottom: 14px}
+.marginBottom20 {margin-bottom: 20px}
+.marginBottom40 {margin-bottom: 40px}
+.marginBottom50 {margin-bottom: 50px}
+.marginBottom100 {margin-bottom: 100px}
+.paddingBottom100 {padding-bottom: 100px} 
+.paddingBottom150 {padding-bottom: 150px} 
+.margin20 {margin: 20px}
+.margin10 {margin: 10px}
+.margin5 {margin: 5px}
+
+.marginRight6 {margin-right: 6px}
+.marginRight8 {margin-right: 8px}
+.marginRight20 {margin-right: 20px}
+.marginRight50 {margin-right: 50px}
+.marginRight60 {margin-right: 60px}
+.marginRight10 {margin-right: 10px}
+.font14 {font-size: 14px}
+.font16 {font-size: 16px}
+.font12 {font-size: 12px;line-height: 18px;}
+.font18 {font-size: 18px}
+.w20pre {width: 20%}
+.w77pre{width: 77%}
+.w80pre{width: 79%}
+.w66{width: 66px}
+.w70{width: 70px}
+.w100{width: 100px}
+.w200{width: 200px}
+.w250{width: 250px}
+.w300{width: 300px}
+.w350{width: 350px}
+.w480{width: 480px}
+.w500{width: 500px}
+.w600{width: 600px}
+.w800{width: 800px}
+.inputStyle {width: 250px;height:30px;line-height: 1.5; padding: 4px 7px;font-size: 12px;border: 1px solid #d7dde4;border-radius:4px;color: #000;background-color: #fff;background-image: none;cursor: text;}
+.inputStyle::-webkit-input-placeholder { /* WebKit browsers */color:#ababab;}
+.inputStyle:-moz-placeholder { /* Mozilla Firefox 4 to 18 */color:#ababab;}
+.inputStyle::-moz-placeholder { /* Mozilla Firefox 19+ */color:#ababab;}
+.inputStyle:-ms-input-placeholder { /* Internet Explorer 10+ */color:#ababab;}
+.lineHeight40{height: 40px;line-height: 40px;}
+.lineHeight28{line-height: 28px;}
+.lineHeight30{height: 30px;line-height:30px;}
+.textCenter{text-align: center;}
+.textRight {text-align: right;}
+.textLeft {text-align: left;}
+.w175{width: 175px;}
+.w190{width: 190px;}
+.w250{width: 250px;}
+.w200{width: 200px;}
+.w100{width: 100px;}
+.w800{width: 800px}
+.w600{width: 600px}
+.display{display: inline-block;}
+.info > div{margin-right: 10px;}
+.info > div:last-child{margin-right: 0;}
+.tabelTotal > ul{display: inline-block;}
+.grayBottom{border-bottom: 2px solid #e3e8ee;}
+.grayBorder{border: 1px solid #e3e8ee;}
+.grayTop{border-top: 1px solid #e3e8ee;}
+.fRight {float: right;}
+.fLeft {float: left;}
+
+.height40 {height: 40px}
+.allWidth{width: 100%}
+.halfWidth{width: 50%}
+.block{display: inline-block;}
+.red{color: #e9474d;}
+.addBtn{ text-align: center;width: 150px;height: 35px;font-size: 15px;line-height: 35px;background-color: #1D86F4;color: #fff;float: right;cursor: pointer;}
+.addBtn > span{float: left;width:35px;height:35px;background-color: #2E8FF5;text-align: center;line-height:35px;font-size: 25px}
+ span img{width: 12px;height: 12px;}
+.search:hover{background-color:#0e75e1}
+.search{font-size: 14px; background-color: #1D86F4; color: #fff; height: 28px;line-height: 28px;cursor: pointer;border-radius: 2px;padding:0 16px;}
+.reset{font-size: 14px;border: 1px solid #D8D8D8;color: #666666;padding:0 16px;height: 28px;line-height: 28px;cursor: pointer;border-radius: 2px;}
+.reset:hover{background-color:#f0f0f0}
+.resetBig{font-size: 16px;border: 1px solid #D8D8D8;color: #666666;height: 42px;line-height: 42px;cursor: pointer;border-radius: 4px;width: 120px;}
+.resetBig:hover{background-color:#f0f0f0}
+.searchBig{font-size: 16px; background-color: #1D86F4; color: #fff; height: 42px;line-height: 42px;cursor: pointer;border-radius: 4px;width: 120px}
+.searchBig:hover{background-color:#0e75e1}
+.upload{text-align: center;width: 150px;height: 35px;font-size: 15px;line-height: 35px;background-color: #E9474D;color: #fff;float: right;cursor: pointer;}
+.upload > span{float: left;width:35px;height:35px;background-color: #EF4C52;text-align: center;line-height:35px;font-size: 25px}
+.searchSpan{width:30px;height: 30px;background-color: #EF4C52;display: inline-block;}
+.searchIcon{text-align: center;width: 100px;height: 32px;font-size: 15px;line-height: 32px;background-color: #1D86F4;color: #fff; display: inline-block;cursor: pointer;}
+.searchIcon > span{float: left;width:32px; height:32px; background-color: #2E8FF5;text-align: center; line-height:32px;font-size: 25px}
+.modealHeader{ font-size: 14px;color: #fff;line-height: 36px;}
+.pointer {cursor: pointer;}
+.closeAble{ float: right;cursor: pointer;line-height:2;}
+.borderRight{border-right: 1px solid #EEEEEE;}
+.error{width: 200px;display: inline-block;margin-left: 10px;color: #e9474d;text-align: left;}
+.overflowHidden {overflow: hidden;}
+.commonBtn{text-align: center;width: 100px;height: 34px; font-size: 15px;line-height: 35px; background-color: #1D86F4; color: #fff;display: inline-block;cursor: pointer;}
+.disabledBtn{text-align: center;height: 30px;padding:0 16px;border-radius: 2px;font-size: 15px;line-height: 30px;background-color: #e1e1e1;color: #fff;display: inline-block;cursor: pointer;}
+.disabledBtnBig{text-align: center;height: 42px;width:120px;border-radius: 4px;font-size: 14px;line-height: 42px;background-color: #e1e1e1;color: #fff;display: inline-block;cursor: pointer;}
+
+.cancelBtn {text-align: center;width: 100px; height: 35px;font-size: 15px; line-height: 35px;display: inline-block;cursor: pointer;border: 1px solid #D8D8D8;color: #666666;}
+ ul.ivu-page {display: inline-block;}
+ .chouseChannelBtn{height:28px;line-height:26px;border: 1px solid #BADCFF;color: #5099F5;font-size: 14px;padding:0 16px;cursor: pointer;border-radius: 2px;}
+ .chouseChannelBtnDisabled{height: 30px;line-height: 26px;border: 1px solid #efefef; color: #666666;background-color: #f0f0f0 ;border-color:#d5d5d5;font-size: 14px;padding:0 16px;cursor: pointer;border-radius: 2px;}
+.systemListIcon{margin:0 auto;width:50px;height:30px;padding:5px;font-size:12px;background:#EEE;color:#CCC;text-align:center;line-height: 1.8;}
+.modealHeader{font-size: 14px;color: #000;}
+.closestyle {font-size: 18px;color: #000;}
+.muMark {color: #F57A5A;line-height: 30px;font-size: 15px;margin-right: 5px;}
+.eo { display: inline-block; height:28px; text-align: center;line-height:28px;color: #fff;border-radius: 2px;background-color:#e9474d; border-color:#ef585e;cursor: pointer;padding:0 16px;}
+.eo:hover{background-color: #db3a40}
+.diseo{ height:28px;line-height:28px;text-align: center; display: inline-block;color: #fff;border-radius: 2px;background-color: #1d86f4;border-color: #1d86f4;padding: 0 16px;cursor: pointer}
+.seo:hover{background-color: #0e75e1}
+.seo { height:28px;line-height:28px;text-align: center; display: inline-block;color: #fff;border-radius: 2px;background-color: #1d86f4;border-color: #1d86f4;padding: 0 16px;cursor: pointer}
+// 列表悬浮框
+.tipContent{width: 100px;height: auto;display: block;}
+.tipContent ul{width: 100%;height: auto;list-style-type: none;}
+.tipContent ul li{width: 100%;height: 24px;}
+.tipContent ul li a{width: 100%;line-height: 24px;display: inline-block;color:#1d86f4;text-indent:10px}
+.tipContent ul li a:hover{background-color: #ebf7ff}
+.chouseChannelBtn:hover{background-color: #f2f8ff;} 

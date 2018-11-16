@@ -1,0 +1,53 @@
+.treeWrapper {
+  padding: 25px;
+  height: auto;
+}
+.treePart {
+  border: 1px solid #e8e8e8;
+  border-radius: 4px;
+  float: left;
+  margin-right: 10px;
+  width: calc(15%);
+  height: 430px;
+  overflow: auto;
+  display: inline-block;
+}
+.tablePart {
+  /* border:1px solid #e8e8e8; */
+  border-radius: 4px;
+  float: left;
+  margin-left: 10px;
+  width: calc(65%);
+  min-height: 300px;
+  display: inline-block;
+}
+.treeHeader {
+  width: 100%;
+  height: 38px;
+  line-height: 38px;
+  display: inline-block;
+  background-color: #F5F7F9;
+}
+.tree_content {
+  width: 98%;
+  overflow: auto;
+  margin-left: 2%;
+}
+.tree_content #bussinessTree .add {
+  float: right;
+}
+.tree_content #bussinessTree .remove {
+  float: right;
+}
+.tree_content #bussinessTree .edit {
+  float: right;
+}
+#bussinessTree li a {
+  width: calc(62%);
+}
+#bussinessTree li a:hover {
+  background-color: #F8F8F8;
+}
+#bussinessTree li a.curSelectedNode {
+  background-color: #F8F8F8;
+}
